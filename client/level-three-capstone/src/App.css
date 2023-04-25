@@ -117,3 +117,28 @@
       left: 0;
       width: 100%;
   }
+
+
+
+  .headerMain {
+      display: flex;
+      align-items: center;
+      height: 65px;
+      background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+      color: white;
+      padding: 20px;
+  }
+
+  .headerIcon{
+
+      height: 100%;
+  }
+
+  .headerTitle{
+    
+    padding: 1%;
+  }
+
+  .headerProject{
+    margin-left: auto;
+  }

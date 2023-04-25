@@ -1,6 +1,12 @@
 import React from "react"
 
+
+
+
 export default function MemeInput() {
+
+   
+
     return (
         <main className="memeMain">
             <form className="memeForm">
@@ -20,7 +26,7 @@ export default function MemeInput() {
                     value=""
             
                 />
-                <button className="submitButton" onClick={stopRefresh}>
+                <button className="submitButton" >    {/*//only got rid of the onClick due to annoying errors untill it has a function*/}
                     Get a new meme image
                 </button>
             </form>
