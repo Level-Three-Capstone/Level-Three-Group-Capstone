@@ -118,8 +118,6 @@
       width: 100%;
   }
 
-
-
   .headerMain {
       display: flex;
       align-items: center;
@@ -141,4 +139,88 @@
 
   .headerProject{
     margin-left: auto;
+  }
+
+  .padding-history {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 36px;
+    height: 100%;
+  }
+  
+  .memeHistory {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    height: 400px;
+    padding: 10px;
+    gap: 1em;
+  }
+  
+  .history-piece {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .meme-wrapper {
+    position: relative;
+  }
+  
+  .memeHistory img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+  }
+  
+  .history-text {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    text-shadow: 2px 2px 2px black, 2px 2px 25px rgb(8, 8, 8), 2px 2px 5px rgb(10, 10, 10);
+  }
+  
+  .history-top-text {
+    top: 10px;
+  }
+  
+  .history-bottom-text {
+    bottom: 10px;
+  }
+
+  .meme-history-header {
+    background-color: #050505;
+    color: white;
+    width: 100%;
+    text-align: center;
+  }
+
+  .add-to-history {
+    text-align: center;
+    padding: 25px;
+  }
+
+  .add-to-history-button {
+    height: 40px;
+    background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+    border-radius: 5px;
+    border: none;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: -0.1em;
+    font-family: 'Karla';
+    cursor: pointer;
+    width: 100%;
+  }
+
+  .add-to-history-button:hover {
+    background: linear-gradient(90.41deg, #af47d1 1.14%, #c01bf7 100%);
   }
