@@ -16,7 +16,7 @@ export default function App() {
     <div className="App">
       <Header />
       <MemeInput setCurrentMeme={setCurrentMeme} addMemeToHistory={addMemeToHistory} />
-      <MemeHistory memeHistory={memeHistory} />
+      <MemeHistory memeHistory={memeHistory} setMemeHistory={setMemeHistory} />
     </div>
   );
 }
