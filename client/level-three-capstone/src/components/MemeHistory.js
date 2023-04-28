@@ -57,7 +57,7 @@ export default function MemeHistory({ memeHistory, setMemeHistory }) {
                         </h2>}
                     </div>
                     <button className="edit-button" onClick={editToggle}>Edit</button>
-                    <button className="delete-button" id={index} onClick={() => deleteItem(index)}>delete</button>
+                    <button className="delete-button" id={index} onClick={() => deleteItem(index)}>Delete</button>
                 </div>
             ))}
       </div>
