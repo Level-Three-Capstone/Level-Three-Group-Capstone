@@ -224,3 +224,28 @@
   .add-to-history-button:hover {
     background: linear-gradient(90.41deg, #af47d1 1.14%, #c01bf7 100%);
   }
+
+  .edit-button {    
+    background: linear-gradient(-45deg, #DDDD5B 0%, #5FCB4C 37%, #B5E024 100%);
+    border-radius: 35%; 
+    display: block;
+    width: 100%;
+
+  }
+  .delete-button {    
+    background: linear-gradient(-45deg, #db4dcf 0%, #d60a0a 37%, #e2345a 100%);
+    border-radius: 35%; 
+    display: block;
+    width: 100%;
+
+  }
+  .top-text-edit {
+    display: block;
+    width: 100%;
+
+  }
+  .bottom-text-edit {
+    display: block;
+    width: 100%;
+
+  }
